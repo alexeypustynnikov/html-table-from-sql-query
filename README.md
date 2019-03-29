@@ -33,7 +33,8 @@ Examples using hr schema:
                                from hr.employees 
                                group by manager_id]', 30, '#4285E1', 'white') from dual
     ```
-    ![3](https://user-images.githubusercontent.com/46852371/53679503-5bad4880-3cde-11e9-8d2b-c491c74b6ff4.jpg)
+    ![3](https://user-images.githubusercontent.com/46852371/55232694-5983ce80-5237-11e9-80f5-9523572c6e53.jpg)
+     <!---![3](https://user-images.githubusercontent.com/46852371/53679503-5bad4880-3cde-11e9-8d2b-c491c74b6ff4.jpg)-->
     
 4) Green header, white text 
    ```sql
