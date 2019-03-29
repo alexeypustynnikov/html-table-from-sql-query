@@ -25,8 +25,8 @@ Examples using hr schema:
                                where to_char(hire_date, 'YYYY') between 2002 and 2005 
                                order by hire_date]',30) from dual
     ```
-    ![2](https://user-images.githubusercontent.com/46852371/53679400-50a5e880-3cdd-11e9-99bb-6831ee579eee.jpg)
-    
+    <!---![2](https://user-images.githubusercontent.com/46852371/53679400-50a5e880-3cdd-11e9-99bb-6831ee579eee.jpg)-->
+    ![2](https://user-images.githubusercontent.com/46852371/55232439-9f8c6280-5236-11e9-9d4d-c8386bfe1985.jpg)
 3) Blue header, white text
    ```sql
    select create_html_table(q'[select manager_id, count(*) 
