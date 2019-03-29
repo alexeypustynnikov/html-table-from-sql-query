@@ -1,15 +1,15 @@
 # HTML table from SQL query string
 
-in params:
-1) sql_in -- sql query string
-2) table_width_prc -- width of html table in %
-3) head_bg_col -- background colour in header, default '#FFFFFF' (white)
-4) text_head_col -- colour of text in header, default 'black'
-output: html string 
+This function helps to create HTML table directly from SQL query.
 
-Examples using hr schema: 
+In params:
+    1) sql_in -- SQL query string
+    2) table_width_prc -- Width of html table in %
+    3) head_bg_col -- Background colour in header, default '#FFFFFF' (white)
+    4) text_head_col -- Colour of text in header, default 'black'
+Output: html string 
 
-
+Examples using default hr schema: 
 
 1)  White header, black text
     ```sql
