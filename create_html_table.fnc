@@ -5,7 +5,7 @@ create or replace function create_html_table(sql_in varchar2,
   return varchar2  is
 
   ----------------------------------------------------------------------------
-  -----------------------------------------------------
+  ----------------------------------------------------------------------------
   --function for creation of html tables from sql string
   --in params:
   --1) sql_in -- sql query string
@@ -13,7 +13,8 @@ create or replace function create_html_table(sql_in varchar2,
   --3) head_bg_col -- background colour in header, default '#FFFFFF' (white)
   --4) text_head_col -- colour of text in header, default 'black'
   ----------------------------------------------------------------------------
-  -----------------------------------------------------
+  ----------------------------------------------------------------------------
+  
     --dbms_sql variables
     v_cursor_id integer;
     v_col_cnt integer;
