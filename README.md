@@ -3,6 +3,7 @@
 This function helps to create HTML table directly from SQL query.
 
 In params:
+
     1) sql_in -- SQL query string
     2) table_width_prc -- Width of html table in %
     3) head_bg_col -- Background colour in header, default '#FFFFFF' (white)
